@@ -1,0 +1,14 @@
+body{
+		/*Tamaño del fondo*/
+	background: url(dos tonos.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+	background-size: cover;
+		/* Margenes */
+	margin-top: 30px;
+	margin-right: 280px;
+	margin-bottom: 10px;
+	margin-left: 280px
+}

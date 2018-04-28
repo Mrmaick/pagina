@@ -1,0 +1,22 @@
+body{
+		/*Tamaño del fondo*/
+	background: url(fondocolores.gif) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-attachment: fixed;
+	background-size: cover;
+		/* Margenes */
+	margin-top: 30px;
+	margin-right: 280px;
+	margin-bottom: 10px;
+	margin-left: 280px
+}
+.stroke {
+		/*Color interno de la letra*/
+	-webkit-text-fill-color: red;
+		/*Tamaño y color del borde*/
+	-webkit-text-stroke: 5px white;
+		/*Sombra a la letra direccion(izquierda o derecha), Orientacion(Arriba o abajo), Difuminado y color de la sombra*/
+	text-shadow: -2px -2px 2	5px white;
+}
